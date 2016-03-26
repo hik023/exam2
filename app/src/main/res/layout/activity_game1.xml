@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Реши"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:id="@+id/answer"/>
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf = "@id/answer"
+        android:id="@+id/timer"
+        android:layout_gravity="center_horizontal" />
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center_horizontal"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_margin="20sp"
+        android:textSize="30sp"
+        android:id="@+id/text1_1"/>
+
+    <TextView
+        android:layout_toRightOf="@id/text1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:layout_margin="20sp"
+        android:textSize="30sp"
+        android:id="@+id/text1_2"/>
+
+    <TextView
+        android:layout_toRightOf="@id/text1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:layout_margin="20sp"
+        android:textSize="30sp"
+        android:id="@+id/text1_3"/>
+    <TextView
+        android:layout_toRightOf="@id/text1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:layout_margin="20sp"
+        android:textSize="30sp"
+        android:id="@+id/text1_4"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/text1_4"
+        android:id="@+id/text1_5"
+        android:layout_margin="10sp"
+        android:textSize="30sp" />
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center_horizontal"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_margin="20sp"
+            android:textSize="30sp"
+            android:id="@+id/text2_1"/>
+
+        <TextView
+            android:layout_toRightOf="@id/text2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:layout_margin="20sp"
+            android:textSize="30sp"
+            android:id="@+id/text2_2"/>
+
+        <TextView
+            android:layout_toRightOf="@id/text2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_margin="20sp"
+            android:textSize="30sp"
+            android:id="@+id/text2_3"/>
+        <TextView
+            android:layout_toRightOf="@id/text2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:layout_margin="20sp"
+            android:textSize="30sp"
+            android:id="@+id/text2_4"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text2_4"
+            android:layout_margin="10sp"
+            android:textSize="30sp"
+            android:id="@+id/text2_5" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center_horizontal"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_margin="20sp"
+            android:textSize="30sp"
+            android:id="@+id/text3_1"/>
+
+        <TextView
+            android:layout_toRightOf="@id/text3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:layout_margin="20sp"
+            android:textSize="30sp"
+            android:id="@+id/text3_2"/>
+
+        <TextView
+            android:layout_toRightOf="@id/text3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_margin="20sp"
+            android:textSize="30sp"
+            android:id="@+id/text3_3"/>
+        <TextView
+            android:layout_toRightOf="@id/text3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:layout_margin="20sp"
+            android:textSize="30sp"
+            android:id="@+id/text3_4"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text3_4"
+            android:layout_margin="10sp"
+            android:textSize="30sp"
+            android:id="@+id/text3_5" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center_horizontal"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_margin="20sp"
+            android:textSize="30sp"
+            android:id="@+id/text4_1"/>
+
+        <TextView
+            android:layout_toRightOf="@id/text4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_margin="20sp"
+            android:textSize="30sp"
+            android:id="@+id/text4_2"/>
+
+        <TextView
+            android:layout_toRightOf="@id/text4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_margin="20sp"
+            android:textSize="30sp"
+            android:id="@+id/text4_3"/>
+        <TextView
+            android:layout_toRightOf="@id/text4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:layout_margin="20sp"
+            android:textSize="30sp"
+            android:id="@+id/text4_4"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text4_4"
+            android:layout_margin="10sp"
+            android:textSize="30sp"
+            android:id="@+id/text4_5" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Проверить"
+        android:layout_gravity="center_horizontal"
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkAnsw"
+        android:onClick="checkAnsw"
+        android:background="#630008ff"
+        android:textColor="#000332" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

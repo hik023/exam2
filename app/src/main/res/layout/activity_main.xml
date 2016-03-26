@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="100sp"
+        android:layout_height="200sp"
+        android:id="@+id/imageView"
+        android:src="@drawable/title"/>
+
+    <Button
+        android:layout_below="@id/title"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Начать игру"
+        android:id="@+id/newGame"
+        android:layout_marginTop="150sp"
+        android:padding="15sp"
+        android:textSize="20sp"
+        android:background="#8b26ff00"
+        android:textColor="#044200"
+        android:layout_gravity="center_horizontal"
+        android:onClick="start2"/>
+
+
+</LinearLayout>
